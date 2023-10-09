@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.Toast;
 
-import com.superluo.textbannerlibrary.ITextBannerItemClickListener;
-import com.superluo.textbannerlibrary.TextBannerView;
+import com.zhaofy.textbannerlibrary.ITextBannerItemClickListener;
+import com.zhaofy.textbannerlibrary.TextBannerView;
 import com.zsml.textbannerview.utils.StatusBarUtil;
 
 import java.util.ArrayList;
@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
         mList.add("学好Java、Android、C#、C、ios、html+css+js");
         mList.add("走遍天下都不怕！！！！！");
         mList.add("不是我吹，就怕你做不到，哈哈");
-        mList.add("superluo");
+        mList.add("zhaofy");
         mList.add("你是最棒的，奔跑吧孩子！");
         /**
          * 设置数据，方式一

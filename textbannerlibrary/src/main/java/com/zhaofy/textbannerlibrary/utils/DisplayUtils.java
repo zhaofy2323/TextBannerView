@@ -1,4 +1,4 @@
-package com.superluo.textbannerlibrary.utils;
+package com.zhaofy.textbannerlibrary.utils;
 
 import android.app.Activity;
 import android.content.Context;

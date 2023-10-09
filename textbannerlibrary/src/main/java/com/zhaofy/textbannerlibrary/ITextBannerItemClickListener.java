@@ -1,10 +1,10 @@
-package com.superluo.textbannerlibrary;
+package com.zhaofy.textbannerlibrary;
 
 /**
  *
  * @描述 点击监听回调接口
  * @author luoweichao
- * @email superluo666@gmail.com
+ * @email zhaofy666@gmail.com
  * @date 2018/3/28/028 21:40
  *
  */

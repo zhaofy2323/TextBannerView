@@ -1,4 +1,4 @@
-package com.superluo.textbannerlibrary;
+package com.zhaofy.textbannerlibrary;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,7 +18,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
-import com.superluo.textbannerlibrary.utils.DisplayUtils;
+import com.zhaofy.textbannerlibrary.utils.DisplayUtils;
 
 import java.util.List;
 
@@ -26,7 +26,7 @@ import java.util.List;
  *
  * @描述 文字自动轮播（跑马灯）
  * @author luoweichao
- * @email superluo666@gmail.com
+ * @email zhaofy666@gmail.com
  * @date 2018/3/28/028 21:21
  *
  */

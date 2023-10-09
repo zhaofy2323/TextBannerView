@@ -42,7 +42,7 @@
 Gradle 
 ```groovy
 dependencies{
-    compile 'com.superluo:textbannerview:1.0.5'  //最新版本
+    compile 'com.zhaofy:textbannerview:1.0.5'  //最新版本
 }
 ```
 或者引用本地lib
@@ -53,7 +53,7 @@ compile project(':textbannerlibrary')
 Maven
 ```xml
 <dependency>
-  <groupId>com.superluo</groupId>
+  <groupId>com.zhaofy</groupId>
   <artifactId>textbannerview</artifactId>
   <version>1.0.5</version>
   <type>pom</type>
@@ -63,7 +63,7 @@ Maven
 #### Step 2.在布局文件中添加TextBannerView，可以设置自定义属性
 
 ```xml
-<com.superluo.textbannerlibrary.TextBannerView
+<com.zhaofy.textbannerlibrary.TextBannerView
         android:id="@+id/tv_banner"
         android:layout_width="match_parent"
         android:layout_height="38dp"
@@ -88,7 +88,7 @@ List<String> list = new ArrayList<>();
 list.add("学好Java、Android、C#、C、ios、html+css+js");
 list.add("走遍天下都不怕！！！！！");
 list.add("不是我吹，就怕你做不到，哈哈");
-list.add("superluo");
+list.add("zhaofy");
 list.add("你是最棒的，奔跑吧孩子！");
 
 //调用setDatas(List<String>)方法后,TextBannerView自动开始轮播

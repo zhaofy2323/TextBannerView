@@ -33,6 +33,7 @@
 |stopViewAnimator()| 设置暂停文字切换|无
 |setItemOnClickListener(listener)| 设置点击监听事件回调 |无
 |setDatasWithDrawableIcon()| 设置带图标的数据；第一个参数：数据 。第二参数：drawable.  第三参数drawable尺寸。第四参数图标位置(仅支持Gravity.LEFT、Gravity.TOP、Gravity.RIGHT、Gravity.BOTTOM) |1.0.2开始
+|getText()| 获取当前选中的内容 |1.0.6开始
 
 
 
@@ -42,7 +43,7 @@
 Gradle 
 ```groovy
 dependencies{
-    compile 'com.zhaofy:textbannerview:1.0.5'  //最新版本
+    compile 'com.zhaofy:textbannerview:1.0.6'  //最新版本
 }
 ```
 或者引用本地lib

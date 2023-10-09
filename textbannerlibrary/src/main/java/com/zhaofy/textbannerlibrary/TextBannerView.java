@@ -302,6 +302,9 @@ public class TextBannerView extends RelativeLayout {
     public void setItemOnClickListener(ITextBannerItemClickListener listener){
         this.mListener = listener;
     }
+    public String getText(){
+        return mDatas.get(mViewFlipper.getDisplayedChild());
+    }
 
 
     @Override
